@@ -154,17 +154,17 @@ spec:
             subset: v10
             port:
               number: 8080
-          weight: 5 
+          weight: 0 
         - destination:
             host: leaf1
             subset: v11
             port:
               number: 8080
-          weight: 50
+          weight: 0
         - destination:
             host: leaf1
             subset: v12
             port:
               number: 8080
-          weight: 45
+          weight: 100
 
